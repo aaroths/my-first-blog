@@ -1,7 +1,8 @@
 {% load staticfiles %}
+
 <html>
     <head>
-        <title>Django Girls blog</title>
+        <title>My CheckUp</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -9,8 +10,22 @@
     </head>
     <body>
     <div class="page-header">
-        <h1><a href="/">Django Girls Blog</a></h1>
+        <h1><a href="/">My Checkup</a></h1>
+        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
     </div>
+    <div>
+      <p1> Welcome to <strong>My CheckUp</strong>.</p1>
+      <br>
+      <br>
+      <p1>My CheckUp is new way for you to support yourself. We all have normal ups and downs, but sometimes we get stuck in a bad spot. MyCheckup gives you a way out and an early warning sign before you get too stuck.</p1>
+      <br>
+      <br>
+      <h2> <strong>Your CheckUp</strong></h2>
+      <p1>Make a list of 5 questions AND/OR choose from the sample questions. When you feel well and equilibrated, there are certain interests and thoughts you may feel. Try to capture these in your questions. When you are in a "well" state of mind, the answer to these questions is Yes.</p>
+      <br>
+      <br>
+
+
     <div class="content container">
         <div class="row">
             <div class="col-md-8">

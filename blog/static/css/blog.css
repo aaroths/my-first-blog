@@ -1,15 +1,22 @@
 h1 a {
-    color: #FCA205;
-    background-color:#000;
+    color: #fff;
 }
 
 h2{
-  color: blue;
+  color: #B673C1;
 }
 
+p {
+  color: #B673C1;
+  padding 100 px;
+}
 
 .page-header {
-    background-color: #ff9400;
-    margin-top: 0;
+    background-color: #B673C1;
+    margin-top: 20 px;
     padding: 20px 20px 20px 40px;
+}
+
+body {
+    padding-left: 15px;
 }
