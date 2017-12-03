@@ -8,7 +8,15 @@ h2{
 
 p {
   color: #B673C1;
-  padding 100 px;
+  padding: 100 px;
+}
+
+p1{
+}
+
+.intro{
+  margin: 40px;
+  background-color:yellow;
 }
 
 .page-header {
